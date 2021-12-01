@@ -12,7 +12,6 @@
         <activity android:name=".MainActivity"
             android:exported="true"
             android:label="Add article">
-
         </activity>
 
 
@@ -25,6 +24,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.activities.AddUpdateActivity"
+            android:label="Add article"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
         </activity>
     </application>
 
